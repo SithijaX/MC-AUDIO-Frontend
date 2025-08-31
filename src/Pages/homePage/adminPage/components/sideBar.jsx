@@ -6,6 +6,7 @@ import { MdOutlineReviews, MdBorderAll } from "react-icons/md";
 import { TbMessage } from "react-icons/tb";
 import { IoSettingsOutline } from "react-icons/io5";
 
+
 export default function AdminSideBar() {
   const linkClasses = ({ isActive, isPending }) => {
     const base = "flex items-center gap-3 px-9 py-2 transition-all duration-150 rounded-lg";
@@ -21,10 +22,12 @@ export default function AdminSideBar() {
       sticky top-0 w-[245px] h-screen
       bg-white
       flex flex-col
+      relative
     ">
       {/* Brand */}
       <div className="flex px-4 py-4 items-center">
         <img src="/MClogo.svg" alt="logo" className="h-[44px]" />
+        
       </div>
 
       {/* Links */}

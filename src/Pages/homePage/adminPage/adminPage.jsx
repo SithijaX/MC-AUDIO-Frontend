@@ -11,7 +11,7 @@ export default function AdminPage() {
 
             <div className="flex-1 flex flex-col bg-white  shadow">
                 <AdminHeader />
-                <main className="flex-1 p-6 rounded-tl-2xl bg-[#eef2f6]">
+                <main className="flex-1 p-6 rounded-tl-lg bg-[#eef2f6]">
                     <h1 className="text-xl font-semibold">Welcome Admin 🚀</h1>
                 </main>
             </div>
